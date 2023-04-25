@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1020785763764",
+    "project_id": "tareqe-be7f3",
+    "storage_bucket": "tareqe-be7f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020785763764:android:29d7ebf248ce1407633ee1",
+        "android_client_info": {
+          "package_name": "com.example.tareqe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020785763764-71ost36dm71r0rg171hvbuo0rfgu1rc2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tareqe",
+            "certificate_hash": "1221122121131331311221777738121104021202"
+          }
+        },
+        {
+          "client_id": "1020785763764-k8s2ofiu6532n6v42ngrt19ju3d0qkkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeaTeAw2Y7uRE7GIL_KGCUPl2fRCBgzHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020785763764-k8s2ofiu6532n6v42ngrt19ju3d0qkkr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
