@@ -214,6 +214,13 @@ class _appDrawerState extends State<appDrawer> {
                                         });
                                       }
                                       if (mounted) {
+                                          if(SessionInfo.currentStudent.licenceExpirationDate!=null &&
+                                              !(DateTime.parse(SessionInfo.currentStudent.licenceExpirationDate!)).isAfter(DateTime.now())){
+                                            activeDriver = !value;
+                                            Message.showErrorToastMessage(
+                                                "Your licence Expired"
+                                                    .tr());
+                                          }
                                           if (SessionInfo.currentStudent.type ==
                                               2
                                               && SessionInfo.currentStudent
